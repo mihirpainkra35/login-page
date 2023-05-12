@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<button id="login-btn" onclick="showLoginForm()">Login</button>
+		<div id="login-form" class="modal">
+			<form class="modal-content" action="#">
+				<span class="close" onclick="hideLoginForm()">&times;</span>
+				<h2>Login</h2>
+				<label for="username"><b>Username</b></label>
+				<input type="text" placeholder="Enter Username" name="username" required>
+				<label for="password"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="password" required>
+				<button type="submit">Login</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
